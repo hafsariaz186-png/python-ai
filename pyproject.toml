@@ -1,0 +1,19 @@
+[project]
+name = "python-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hafsa", email = "hafsariaz186@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipy>=1.2",
+]
+
+[project.scripts]
+python-ai = "python_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

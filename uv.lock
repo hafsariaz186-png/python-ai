@@ -1,0 +1,23 @@
+version = 1
+revision = 5
+requires-python = ">=3.13"
+
+[[package]]
+name = "ipy"
+version = "1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/49/de558c2c8581f5860b9696467fb893c7141501daf00ea14bb01fefd360e1/ipy-1.2.tar.gz", hash = "sha256:c145e664e84642fac875a043fab1a0b50bd65297385dc438dbfe25f24e65ac61", size = 33918, upload-time = "2026-10-08T06:31:58.293Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/31/88ed3ccd8cd387e61dd4690b7f2141828a831e487353e9c200b31a7dfbcb/ipy-1.2-py3-none-any.whl", hash = "sha256:cbf616de8d5e6da3f74f759220faf99782ee59ea29474b6c64ba387307c6cf26", size = 19838, upload-time = "2026-10-08T06:31:57.003Z" },
+]
+
+[[package]]
+name = "python-ai"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "ipy" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "ipy", specifier = ">=1.2" }]
