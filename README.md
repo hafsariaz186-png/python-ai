@@ -26,4 +26,15 @@ A Python tool that turns a local business's details into 3 ready-to-use AI promp
 
 ![Prompt Kit running](docs/project-m1-run.png)
 
-**Who would pay for this:** Small boutique and shop owners who want AI help but don't know what to type.
+**Who would pay for this:** Small boutique and shop owners who want AI help but don't know what to type.--
+## Task 1.8: Business Helper Bot Design
+
+Business: Glow Beauty Salon
+
+| Intent | Keywords | Reply |
+|---|---|---|
+| Complaint | late, bad, problem, angry | Sorry about that. The manager will call you today. |
+| Timings | timing, open, close | We are open 11 am to 8 pm, every day. |
+| Prices | price, fee, cost, how much | Haircut is 800 PKR and facial is 2,000 PKR. |
+| Location | where, location, address | We are in Gulberg, Lahore. |
+| Appointment | appointment, book, booking | Call 0300-1234567 to book your appointment. |
