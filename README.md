@@ -38,3 +38,21 @@ Business: Glow Beauty Salon
 | Prices | price, fee, cost, how much | Haircut is 800 PKR and facial is 2,000 PKR. |
 | Location | where, location, address | We are in Gulberg, Lahore. |
 | Appointment | appointment, book, booking | Call 0300-1234567 to book your appointment. |
+## Module 1 Project: Glow Beauty Salon Front Desk
+
+A front desk assistant for a beauty salon that answers common questions with rules, gives exact price quotes, and turns unanswered questions into AI-ready prompts.
+
+
+**Run command:**
+
+```
+uv run code/project_m1_front_desk.py
+```
+
+**Screenshot:**
+
+![Full session with report](docs/project-m1-part2-run.png)
+
+
+
+**Value for the owner:** Staff ko baar baar timings aur prices nahi batani paren gi, price quotes mein galti nahi hogi, aur AI ka paisa sirf zaroorat par kharch hoga.
