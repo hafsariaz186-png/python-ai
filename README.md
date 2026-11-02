@@ -56,3 +56,13 @@ uv run code/project_m1_front_desk.py
 
 
 **Value for the owner:** Staff ko baar baar timings aur prices nahi batani paren gi, price quotes mein galti nahi hogi, aur AI ka paisa sirf zaroorat par kharch hoga.
+
+## Module 2 Checkpoint 1: AI Content Studio
+
+A content studio for Sweet Crumbs bakery that writes menu descriptions, streams social posts in 3 tones, answers prices from real data, and chats with customers using only real facts.
+
+**Run:** `uv run code/project_m2_content_studio.py`
+
+![Session run](docs/project-m2-cp1-run.png)
+
+**Value:** The owner no longer spends hours writing item descriptions and weekly posts by hand, because the studio does it in minutes. Customers get instant, correct answers about prices and hours from real data, so the owner stops answering the same questions every day and would happily pay for it.
