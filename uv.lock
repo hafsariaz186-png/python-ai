@@ -987,9 +987,11 @@ name = "python-ai"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "httpx" },
     { name = "ipy" },
     { name = "langchain" },
     { name = "langchain-ollama" },
+    { name = "ollama" },
 ]
 
 [package.dev-dependencies]
@@ -999,9 +1001,11 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "ipy", specifier = ">=1.2" },
     { name = "langchain", specifier = ">=1.4.7" },
     { name = "langchain-ollama", specifier = ">=1.1.0" },
+    { name = "ollama", specifier = ">=0.6.3" },
 ]
 
 [package.metadata.requires-dev]

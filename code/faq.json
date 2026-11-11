@@ -1,0 +1,11 @@
+{
+  "business_name": "Sweet Crumbs",
+  "timings": "10 am to 9 pm, Monday to Saturday",
+  "location": "Gulberg, Lahore",
+  "delivery": "Free delivery for orders over 3,000 PKR",
+  "prices": {
+    "cupcake": 250,
+    "brownie": 300,
+    "chocolate cake": 1500
+  }
+}
