@@ -18,6 +18,9 @@ MESSAGES = [
     "1 pizza and 2 brownies, Bilal, Model Town",
     "hi do you deliver to Johar Town?",
     "bhai 4 brownies bhej do, Usman, Johar Town",
+    "I want 2 cupcakes",
+    "Ali wants 3 brownies",
+    "2 chocolate cakes please, Hamza",
 ]
 
 # Why a schema: it forces the AI to reply in exactly this JSON shape
