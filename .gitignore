@@ -2,3 +2,4 @@
 __pycache__/
 code/chat_history.json
 code/errors.log
+code/orders.json
